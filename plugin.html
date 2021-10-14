@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  	<!-- Style of the plugin -->
+  	<link rel="stylesheet" href="../plugin/whatsapp-chat-support.css">
+  	<link rel="stylesheet" href="../plugin/components/Font Awesome/css/font-awesome.min.css">
+  	
+</head>
+<body>
+	
+<!--
+	/* ====================================================================== *
+            Support
+     * ====================================================================== */
+ -->		
+
+    <div class="whatsapp_chat_support" id="support">
+        <div 
+            class="wcs_button wcs_button_person" 
+            data-number="+27781340927"
+            data-availability='{ "monday":"08:30-18:30", "tuesday":"08:30-18:30", "wednesday":"08:30-18:30", "thursday":"08:30-22:30", "friday":"08:30-18:30" }'
+        >
+     
+            <div class="wcs_button_person_img"><img src="https://www.fraudcheck.co.za/images/home_icon2.png" alt=""></div>
+            <div class="wcs_button_person_content">
+                <div class="wcs_button_person_name">Lerato  /  Fraudcheck Support</div>
+                <div class="wcs_button_person_description">Need help? Chat via whatsApp</div>
+                <div class="wcs_button_person_status">I'm Online</div>
+            </div>
+     
+        </div>  
+    </div>
+
+
+
+	<!-- jQuery 1.8+ -->
+	<script src="../plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+
+	<!-- Plugin JS file -->
+	<script src="../plugin/components/moment/moment.min.js"></script>
+	<script src="../plugin/components/moment/moment-timezone-with-data.min.js"></script>
+	<script src="../plugin/whatsapp-chat-support.js"></script>
+
+	<script>
+		$('#example_1').whatsappChatSupport({
+			debug: true,
+		});
+
+
+	</script>
+
+</body>
+</html>
